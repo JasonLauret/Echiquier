@@ -1,0 +1,66 @@
+J'ai modifier l'indentation dans: 
+- Game
+- Joueur
+- Piece
+- Couleur
+- Echiquier
+- Fou
+- Pion
+- Position
+- Roi
+- Tour
+
+Executeur: 
+- main: Il n'a pas mis le mot static
+- il a mis character au lieu de static
+- il a appeller "Game" au lieu de "g"
+
+Game:
+- Il a oublié les mots private sur deux attibuts
+- Reine
+- 173: Il essaye d'appeller l'attribut tab qui est private dans joueur, donc il faut creer le getter puis modifier tab par le getter 
+
+Joueur:
+- Private à l'attribut List
+- Public dans le constructeur
+- Methode abandoner qui ne fait rien           x
+
+Piece:
+- Une methode de l'interface "Mouvement" n'a pas été appeler dans piece
+
+Mouvement:
+- Le mot public dans la declaration de son interface
+
+Case:
+- Attribut affichage n'est jamais utiliser
+
+Cavalier:
+- Pour un soucis d'optimisation, il vaudrais mieu importer seulement se qu'on utilise au lieu de tous importer
+- Commentaire TO DO supprimer
+
+Couleur:
+
+
+Echiquier:
+- importer seulement se qu'on utilise au lieu de tous importer
+- Private de l'attribut
+- Changement de l'anglais par le Francais
+
+Fou:
+- importer seulement se qu'on utilise au lieu de tous importer
+
+Piece:
+- importer seulement se qu'on utilise au lieu de tous importer
+
+Pion:
+- importer seulement se qu'on utilise au lieu de tous importer
+- Private a l'attribut
+- ligne 69 et 84, il utilise le getX, alors qu'il la deja appeller dans la variable x
+
+Roi:
+- public methode update et getRoiCouleur
+
+Demande de nom des joueurs:
+Création de la class Utils avec de 2 méthodes pour ajouter des nom. Je les ai appellé en paramètre de l'instantiation de "game" dans le fichier "Executeur".
+
+Creation de differents packages
